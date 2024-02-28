@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brother's Veiculos</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/styleDoceria.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body class="sitecor">
+
+    <header>
+    <div class="bloco" >   
+        <img class="foto" src="img/logo principal.png" >       
+        <nav>
+            <ul>
+                <li> <a class="link" th:href="@{/index}"> HOME</a></li>
+                <li> <a class="link" th:href="@{/carros}"> CARROS</a></li>
+                <li> <a class="link" th:href="@{/contato}"> CONTATO</a></li>
+                <li> <a class="link" th:href="@{/login}"> LOGIN</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main class="bloco">
+    
+        <ul class="lista-produtos">
+
+            <li href="#">
+                <h2> Porshe 911 Turbo S </h2>
+                <img class="img_lista" src="img/911.jpg">
+                <p>Potência - 640</p>
+                <p> 0-100 KM/H - 2,6 segundos (com pacote Sport Chrono)</p>
+                <p> Velocidade máxima da pista - 330 KM/H </p>
+                <p class="produto-preco">R$1.200.000,00 (MSRP)</p>
+
+            </li>
+
+            <li href="#">
+                <h2> Porshe 911 Carrera </h2>
+                <img class="img_lista" src="img/911-c.jpg">
+                <p> Potência - 379 </p>
+                <p> 0-100 KM/H - 4,0 segundos </p>
+                <p> Velocidade máxima da pista - 300 KM/H </p>
+                <p class="produto-preco">R$568.600,00 (MSRP)</p>
+
+            </li>
+
+                <li href="#">
+                    <h2> Porshe 911 Carrera GTS </h2>
+                <img class="img_lista" src="img/911-gts.jpg"> 
+                <p> Potência - 473 </p>
+                <p> 0-100 KM/H - 3,2 segundos (com pacote Sport Chrono) </p>
+                <p> Velocidade máxima da pista - 310 KM/H </p>
+                <p class="produto-preco">R$750.000,00 (MSRP)</p>
+    
+                </li>
+        </ul>
+
+        
+    </main>
+
+        <footer style="background-color: rgb(15, 15, 15);">
+
+            <div class="bloco">
+            <img class="foto" src="img/direitos-autorais.png">
+
+            <p class="rodape-itens"> R. Nove de Julho, 823 - Centro, Araraquara - SP, 14801-295 </p>
+
+        </div>
+        </footer>
+
+</body>
+</html>

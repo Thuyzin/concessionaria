@@ -1,0 +1,112 @@
+.bloco{
+    
+   width: 1196px;
+    position: relative;
+    margin: 0 auto;
+   
+}
+
+nav{
+    position: absolute; 
+    right: 0;
+    font-size: 22px;
+    top: 140px;
+ 
+ }
+
+ nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.foto{
+    width: 300px;
+    height: 200px;
+    
+}
+
+header{
+    background-color: rgb(41, 41, 41);
+}
+
+.sitecor{
+    background-color: rgb(68, 0, 0);
+}
+
+.valores{
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;  
+}
+
+
+.link{
+    font-size: 20px;
+    color: brown;
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: none;
+    top: 10px;
+    
+}
+
+.link:hover{
+    color: chocolate;
+    font-size: 21px;
+}
+
+.img_lista{
+    width: 600px;
+    height: 300px;
+}
+
+.lista-produtos li{
+    display: inline-block;
+    width: 95%;
+    border: 3px solid black;
+    border-color: rgb(0, 150, 50);
+    border-radius: 28px;
+    height: 522px;
+    margin: 50px 1.3%;
+    text-align: center;
+}
+
+.lista-produtos h2 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+    margin: 35px 0;
+}
+
+.lista-produtos p{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+}
+
+.produto-preco {
+    color: crimson;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    margin: 35px 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px auto;
+}
+
+.lista-produtos li:hover {
+    border-color: red;
+    border: 2px dashed chocolate;
+    transition: 3000ms;
+
+}
+
+.rodape-itens{
+
+    position: absolute; 
+    right: 0;
+    font-size: 22px;
+    top: 140px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 22px;
+    color: black;
+
+}
+
